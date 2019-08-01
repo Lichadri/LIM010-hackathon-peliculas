@@ -1,10 +1,5 @@
-const url = 'http://www.omdbapi.com/?t=titanic&apikey=ebdf5d60'
-console.log(url)
+// const url = `http://www.omdbapi.com/?s=requiem&r=json&apikey=3ab3fdc7`;
 
-fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById('ppp').innerHTML = `${data.Title}`;
-    console.log(data);
-  })
-  .catch(err => console.log(err))
+// fetch(url)
+//     .then(res => res.json())
+//     .then(json => console.log(json))
