@@ -4,7 +4,14 @@ console.log(url)
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    document.getElementById('ppp').innerHTML = `${data.Title}`;
+    document.getElementById('ppp').innerHTML = `
+    <div>
+    <img src='${data.Poster}'>
+    <p>${data.Title}</p>
+    <p>${data.Genre}</p>
+    <p>${data.Year}</p>
+    </div>
+    `;
     console.log(data);
   })
   .catch(err => console.log(err))
