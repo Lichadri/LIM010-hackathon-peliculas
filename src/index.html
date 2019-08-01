@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +7,28 @@
 <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-
 <body>
-    <header class="header">
+       <header class="header">
         <div id="titulo" class="titulo"></div>
         <div id="logo" class="logo"></div>
     </header>
-    <select name="selector" id="selector">
-        <option value="" selected>Qué buscas?</option>
-        <option value="movie">Películas</option>
+    <aside class="search">
+        <select name="selector" id="selector">
+        <option value=""selected>Qué buscas?</option>
+        <option value="movie">Películas</option> 
         <option value="series">Series</option>
-    </select>
-    <label for="byTitle">Busca por Título:</label>
-    <input id="byTitle" type="text">
-    <label for="byYear">Año:</label>
-    <input id="byYear" type="number" min="1895" max="2019">
-    <button id="searchbyTitle">Search</button>
+        </select>
+        <label for="byTitle">Busca por Título:</label>
+        <input id="byTitle" type="text">
+        <label for="byYear">Año:</label>
+        <input id="byYear" type="number" min="1895" max="2019">
+        <button id="searchbyTitle">Search</button>
+    </aside>
+    <section class="posters" id="posters">
     <footer>
         <p>Hackathon Copyright © Sabrina, Leslye, Nora & Adriana 2019 </p>
     </footer>
     <script src="main.js"></script>
     <script src="data.js"></script>
-
-    <section class="poster" id="poster">
-
-    </section>
 </body>
-
 </html>
