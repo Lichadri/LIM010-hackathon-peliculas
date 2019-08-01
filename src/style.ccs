@@ -1,7 +1,0 @@
-body {
-   background-repeat: no-repeat;
-   font-family: 'Montserrat', sans-serif, Open Sans;
-   background-size: cover;
-   background-attachment: fixed;
-   overflow: hidden;
- }
