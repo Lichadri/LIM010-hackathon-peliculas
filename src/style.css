@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  outline: none;
+  color: white;
 }
+
 .content-all{
     width: 210px;
     margin: auto;
@@ -58,56 +58,81 @@
         transform: rotateY(360deg);
     }
 }
-* {
-    outline: none;
-    background-color: black;
-    color: white;
+
+.type{
+  background: #5f5e60;
+  border-color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 48px;
 }
 
-.logo {
-    height: 19vh;
-    width: 50vw;
-    background-image: url(img/skulllogo.png);
-    margin: auto;
-    border-radius: 38px;
+label{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif, Open Sans;
+  background-color: initial;
+  /* background-position: center; */
 }
-
 .search {
     display: flex;
     justify-content: center;
+    background: linear-gradient(to right, #F86400, #F89E00);
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    text-align: center;
 }
 
 body {
   background-color: black;
-   background-repeat: no-repeat;
    font-family: 'Montserrat', sans-serif, Open Sans;
-   background-size: cover;
-   background-attachment: fixed;
-   overflow: hidden;
  }
 
  .header {
-   display: inline-flex;
-  height: 120px;
-  max-width: 360px;
-  margin: auto;
-  justify-content: center;
+   display: flex;
+   height: 220px;
+   max-width: 811px;
+   margin: auto;
+   justify-content: center;
 }
 
 .logo {
   background-image: url(./Imagenes/cancha.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 241px;
-  height: 120px;
+  background-size: 110px;
+  width: 135px;
+  height: 153px;
   background-position: center;
 }
 
 .titulo {
   background-image: url(./Imagenes/titulo.png);
   background-repeat: no-repeat;
-  width: 550px;
-  height: 120px;
-  background-size: contain;
+  width: 980px;
+  height: 222px;
+  background-size: 685px;
   background-position: center;
+}
+
+#byTitle{
+  width: 270px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  /* color: black; */
+  font-size: 16px;
+  margin: 0px 18px;
+}
+
+button{
+  background: #696b6c;
+  padding: 14.5px;
+  color: white;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: black;
 }
