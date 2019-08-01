@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <select name="selector" id="selector">
+    <header class="logo"></header>
+    <aside class="search">
+        <select name="selector" id="selector">
         <option value=""selected>Qué buscas?</option>
         <option value="movie">Películas</option> 
         <option value="series">Series</option>
-      </select>
-    <label for="byTitle">Busca por Título:</label>
-    <input id="byTitle" type="text">
-    <label for="byYear">Año:</label>
-    <input id="byYear" type="number" min="1895" max="2019">
-    <button id="searchbyTitle">Search</button>
+        </select>
+        <label for="byTitle">Busca por Título:</label>
+        <input id="byTitle" type="text">
+        <label for="byYear">Año:</label>
+        <input id="byYear" type="number" min="1895" max="2019">
+        <button id="searchbyTitle">Search</button>
+    </aside>
+    <section class="posters" id="posters">
+    </section>
 </body>
 <script src="main.js"></script>
 <script src="data.js"></script>

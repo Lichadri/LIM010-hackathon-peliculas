@@ -1,0 +1,18 @@
+* {
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    height: 19vh;
+    width: 50vw;
+    background-image: url(img/skulllogo.png);
+    margin: auto;
+    border-radius: 38px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
