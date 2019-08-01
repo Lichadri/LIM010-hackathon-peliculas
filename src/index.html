@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
 </head>
 <body>
-  <p id="ppp"> </p>
-  <script src="data.js"></script>
-
+    <select name="selector" id="selector">
+        <option value=""selected>Qué buscas?</option>
+        <option value="movie">Películas</option> 
+        <option value="series">Series</option>
+      </select>
+    <label for="byTitle">Busca por Título:</label>
+    <input id="byTitle" type="text">
+    <label for="byYear">Año:</label>
+    <input id="byYear" type="number" min="1895" max="2019">
+    <button id="searchbyTitle">Search</button>
 </body>
+<script src="main.js"></script>
+<script src="data.js"></script>
+
 </html>
