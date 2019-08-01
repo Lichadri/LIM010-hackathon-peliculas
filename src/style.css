@@ -4,6 +4,10 @@
     color: white;
 }
 
+.hide {
+    display: none;
+}
+
 .content-all {
     width: 210px;
     margin: auto;
@@ -130,4 +134,27 @@ body {
     height: 120px;
     background-size: contain;
     background-position: center;
+}
+
+.posters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-caption-image {
+    height: 30vh;
+    object-fit: fill;
+}
+
+.wp-caption-text {
+    position: absolute;
+    width: 10vw;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

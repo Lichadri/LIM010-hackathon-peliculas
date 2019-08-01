@@ -1,14 +1,16 @@
 const btnSearch = document.getElementById('searchbyTitle');
 const type = document.getElementById('selector');
 const display = document.getElementById('posters');
+const slideshow = document.getElementById('slideshow');
 let movie = [];
 
 const showDisplay = (arrayToPrint) => {
+    slideshow.classList.add('hide');
     arrayToPrint.forEach(element => {
         display.innerHTML += `
           <figure class="wp-caption">
-          <input class="poster" name="${element.title}" type="image" src="${element.poster}" alt="${element.title}">
-          <figcaption class="wp-caption-text" type="button">${element.poster}</figcaption>
+          <input class="wp-caption-image" name="${element.title}" type="image" src="${element.poster}" alt="${element.title}">
+          <figcaption class="wp-caption-text" type="text">${element.title}</figcaption>
           </figure>`;
     })
 };
@@ -21,12 +23,15 @@ const searchTitles = () => {
     fetch(url)
         .then(res => res.json())
         .then(json => {
+            console.log(json.Search);
+
             json.Search.forEach(element => {
                 movie = [{
                     poster: element.Poster,
                     title: element.Title,
                     type: element.Type,
                     year: element.Year,
+                    id: element.imdbID,
                 }]
                 showDisplay(movie);
             });
