@@ -2,10 +2,7 @@
     outline: none;
     background-color: black;
     color: white;
-}
-
-.hide {
-    display: none;
+    font-family: 'Montserrat', sans-serif, Open Sans;
 }
 
 .content-all {
@@ -100,7 +97,7 @@
 }
 
 .type {
-    background: #5f5e60;
+    background-color: black;
     border-color: #ffffff;
     border-radius: 8px;
     font-weight: 600;
@@ -131,7 +128,6 @@ body {
 }
 
 .wp-caption {
-    /* background-color: rgba(223, 213, 213, 0.575); */
     background: linear-gradient(to right, #F86400, #F89E00);
     height: 42vh;
     padding: 0.5em;
@@ -205,5 +201,14 @@ footer {
     height: 3em;
     text-align: center;
     background-color: black;
-    font-family: 'Montserrat', sans-serif, Open Sans;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
 }
