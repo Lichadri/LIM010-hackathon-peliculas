@@ -13,7 +13,7 @@
 
 Historias con Cancha es una web  que nos ayudará en la búsqueda  de información detallada  de  nuestras series y películas favoritas para descubrir contenidos acordes a nuestras preferencias.
 Los resultados irán apareciendo según se escriba en el buscador alguna palabra clave,  de manera que cuanto más completo se escriba el nombre que se quiere localizar más específicos serán los resultados.
-Al  click sobre el título accederemos a una ficha detallada de la serie o película, con datos como: director, actor, país, género, año, idioma y un breve resumen.
+Al  click sobre el poster accederemos a una ficha detallada de la serie o película, con datos como: director, actor, país, género, año, idioma y un breve resumen.
 
 
  Equipo de trabajo:
@@ -62,11 +62,7 @@ En esta etapa se usó el  lápiz y papel para maquetar interfaces en pantallas y
 ![Vista 2](https://user-images.githubusercontent.com/51204770/62373247-ffee2200-b4fe-11e9-9ba3-181b7c6f08f2.png)
 
  Testeo de Usuarios:
- Recibiendo el feedback de las compañeras del bootcamp se notó que el espacio de información que habíamos incorporado era innecesaria.
 
-#### Prototipado de Alta Fidelidad
-En esta etapa se usó FIGMA para demostrar cómo se van a representar visualmente los elementos definidos y puedan pasar también una prueba de testeo por usuarios.
-
-Testeo de Usuarios:
 Al compartir el diseño con los usuario nos hicieron notar algunos detalles que no habíamos incluido, los cuales nos parecieron importante implementar.
 - Agregar el footer
+- Espacio de información que habíamos incorporado era innecesaria.
